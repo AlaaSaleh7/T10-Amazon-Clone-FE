@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 
-function Header() {
+export default function Header() {
   const [{ user }] = useState();
 
   return (
@@ -44,5 +44,3 @@ function Header() {
     </div>
   );
 }
-
-export default Header;
